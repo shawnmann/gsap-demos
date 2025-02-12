@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import BasicGSAP from '@/views/BasicGSAP.vue'
 import BasicTweens from '@/views/BasicTweens.vue'
 import TweenMethods from '@/views/TweenMethods.vue'
+import Timeline from '@/views/Timeline.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,6 +35,11 @@ const router = createRouter({
       path: '/tween-methods',
       name: 'tween-methods',
       component: TweenMethods
+    },
+    {
+      path: '/timeline',
+      name: 'timeline',
+      component: Timeline
     }
   ],
 })
