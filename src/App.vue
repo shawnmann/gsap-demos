@@ -11,6 +11,8 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/basic-tweens">Basic Tweens</RouterLink>
         <RouterLink to="/tween-methods">Tween Methods</RouterLink>
         <RouterLink to="/timeline">Timeline</RouterLink>
+        <RouterLink to="/control-methods">Control Methods</RouterLink>
+        <RouterLink to="/gsap-set">Set</RouterLink>
       </nav>
     </div>
   </header>

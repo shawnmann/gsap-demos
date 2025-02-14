@@ -4,6 +4,8 @@ import BasicGSAP from '@/views/BasicGSAP.vue'
 import BasicTweens from '@/views/BasicTweens.vue'
 import TweenMethods from '@/views/TweenMethods.vue'
 import Timeline from '@/views/Timeline.vue'
+import ControlMethods from '@/views/ControlMethods.vue'
+import GSAPSet from '@/views/GSAPSet.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -40,6 +42,16 @@ const router = createRouter({
       path: '/timeline',
       name: 'timeline',
       component: Timeline
+    },
+    {
+      path: '/control-methods',
+      name: 'control-methods',
+      component: ControlMethods
+    },
+    {
+      path: '/gsap-set',
+      name: 'gsap-set',
+      component: GSAPSet
     }
   ],
 })

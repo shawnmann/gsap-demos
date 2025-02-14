@@ -10,7 +10,8 @@ onMounted(() => {
             duration: 2,
             ease: 'power1.inOut',
             yoyo: true,
-            repeat: -1
+            repeat: -1,  // Repeat indefinitely
+            repeatDelay: 0  // How long before animation repeats
         }
     });
 
