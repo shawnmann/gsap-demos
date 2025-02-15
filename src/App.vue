@@ -14,6 +14,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/control-methods">Control Methods</RouterLink>
         <RouterLink to="/gsap-set">Set</RouterLink>
         <RouterLink to="/stagger">Stagger</RouterLink>
+        <RouterLink to="/stagger-squares">Stagger Squares</RouterLink>
       </nav>
     </div>
   </header>

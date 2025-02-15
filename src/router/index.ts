@@ -7,6 +7,7 @@ import Timeline from '@/views/Timeline.vue'
 import ControlMethods from '@/views/ControlMethods.vue'
 import GSAPSet from '@/views/GSAPSet.vue'
 import Stagger from '@/views/Stagger.vue'
+import StaggerSquares from '@/views/StaggerSquares.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -58,6 +59,11 @@ const router = createRouter({
       path: '/stagger',
       name: 'stagger',
       component: Stagger
+    },
+    {
+      path: '/stagger-squares',
+      name: 'stagger-squares',
+      component: StaggerSquares
     }
   ],
 })
